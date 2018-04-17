@@ -2,6 +2,8 @@
 
 
 npm install
+
+```
 To start the server
 
 ```
