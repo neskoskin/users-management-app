@@ -9,5 +9,5 @@ module.exports = (app) => {
 
     // Long Polling
     const longpoll = require("express-longpoll")(app);
-    longpoll.create("/userchanges");
+    longpoll.create("/userchanges", { maxListeners: 100 });
 }
